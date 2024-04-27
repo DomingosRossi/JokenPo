@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+
+.jo {
+    color: #00ffff;
+}
+.jo:hover {
+    color: #fff000;
+    transition: 0.3s ease-in-out;
+}
+.ken {
+    color: #fff000;
+}
+.ken:hover {
+    color: #00ff00;
+    transition: color 0.3s ease-in-out;
+}
+.po {
+    color: #00ff00;
+}
+.po:hover {
+    color: #00ffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.button {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#stone {
+    background-color: #00ffff;
+}
+
+#paper {
+    background-color: #fff000;
+}
+
+#scissors {
+    background-color: #00ff00;
+}
+
+p {
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.my-score span {
+color: #1f176e;
+}
+
+.cpu-score span {
+    color: #b10e9b;
+}
